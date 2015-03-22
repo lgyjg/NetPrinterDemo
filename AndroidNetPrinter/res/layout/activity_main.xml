@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yjg.androidnetprinter.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnTestCanvas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Canvas" />
+        <Button
+            android:id="@+id/btnTestCanvasAsBitmap"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bitmap" />
+        <Button
+            android:id="@+id/btnTestText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Text" />
+        <Button
+            android:id="@+id/btnTestHtml"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Html" />
+        <Button
+            android:id="@+id/btnTestHtmlUrl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtmlUrl" />
+        <Button
+            android:id="@+id/btnTestTextFile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TextFile" />
+        <Button
+            android:id="@+id/btnTestHtmlFile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HtmlFile" />
+        
+    </LinearLayout>
+
+</RelativeLayout>
